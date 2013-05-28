@@ -11,6 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D4E3ED
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{9AA03A4F-CEE9-45F9-BF7E-C8871AB913B4}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Authors.sql = ..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Authors.sql
+		..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Comments.sql = ..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Comments.sql
+		..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Contributions.sql = ..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Contributions.sql
+		..\..\..\Visual Studio 2010\Projects\StoryShare\sql\FriendRequests.sql = ..\..\..\Visual Studio 2010\Projects\StoryShare\sql\FriendRequests.sql
+		..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Friends.sql = ..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Friends.sql
+		..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Stories.sql = ..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Stories.sql
+		..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Tags.sql = ..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Tags.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
