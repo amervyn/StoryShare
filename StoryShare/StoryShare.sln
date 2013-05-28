@@ -2,6 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoryShare", "StoryShare\StoryShare.csproj", "{3F7C3CE8-752B-451E-A2D8-BD400DAFE1FD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{57F439C1-6AD9-4213-BC24-923CC48582C3} = {57F439C1-6AD9-4213-BC24-923CC48582C3}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D4E3ED45-4E0B-4753-8CBA-58723C3C8205}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,16 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D4E3ED
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{9AA03A4F-CEE9-45F9-BF7E-C8871AB913B4}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Authors.sql = ..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Authors.sql
-		..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Comments.sql = ..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Comments.sql
-		..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Contributions.sql = ..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Contributions.sql
-		..\..\..\Visual Studio 2010\Projects\StoryShare\sql\FriendRequests.sql = ..\..\..\Visual Studio 2010\Projects\StoryShare\sql\FriendRequests.sql
-		..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Friends.sql = ..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Friends.sql
-		..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Stories.sql = ..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Stories.sql
-		..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Tags.sql = ..\..\..\Visual Studio 2010\Projects\StoryShare\sql\Tags.sql
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoryShareWcf", "StoryShareWcf\StoryShareWcf.csproj", "{57F439C1-6AD9-4213-BC24-923CC48582C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +26,10 @@ Global
 		{3F7C3CE8-752B-451E-A2D8-BD400DAFE1FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F7C3CE8-752B-451E-A2D8-BD400DAFE1FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F7C3CE8-752B-451E-A2D8-BD400DAFE1FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F439C1-6AD9-4213-BC24-923CC48582C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F439C1-6AD9-4213-BC24-923CC48582C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F439C1-6AD9-4213-BC24-923CC48582C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F439C1-6AD9-4213-BC24-923CC48582C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
